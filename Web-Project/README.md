@@ -2,4 +2,4 @@ THIS FOLDER CONTAINS PROJECT FROM THE FIRST RESPONSIVE LAYOUT DESIGNED BY ME NEZ
 
 LINK TO THIS SITE IS BELOW
 
-https://responsive-design.netlify.app
+https://responsivedesign-nezer.netlify.app
