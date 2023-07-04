@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* Main Section  */
+#Main {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1510125964506-dc5a14f3ef4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbXB1dGVyJTIwd29ya3N0YXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px 1px #333;
+  color: #fff;
+}
+
+/* Navigation */
+
+#Nav {
+  height: 10vh;
+  font-size: 2rem;
+  display: flex;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#Nav-logo {
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-self: center;
+  font-weight: bold;
+}
+
+#Nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#Nav ul li {
+  padding-left: 1rem;
+}
+
+#Nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#Nav ul li a:hover{
+  color:rgb(31, 29, 29);
+  /* background-color: #555; */
+  text-decoration: wavy;
+}
+/* End of Navigation */
+
+/* Heder */
+#Header {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#Header h1 {
+  font-size: 10rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#Header h3 {
+  color: beige;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#Header .btn-success {
+  margin-top: 2rem;
+}
+
+#Header .btn-success a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#Header .btn-success a:hover {
+  color: rgb(60, 143, 60);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* End of Heder */
+
+/* End of  Main Section */
+
+section {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+section:nth-child(odd) {
+  background-color: #333;
+}
+
+h2 {
+  font-size: 6rem;
+}
+/* About Section  */
+
+#About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#About .about-container {
+  width: 1200px;
+  display: flex;
+  margin-top: 6rem;
+}
+
+#About .about-img {
+  min-width: 550px;
+  background-image: url("https://media.istockphoto.com/id/950346740/photo/top-view-of-coworking-people-sitting-together-around-table-business-meeting-of-young-creative.jpg?s=612x612&w=0&k=20&c=RZpCdBquUZxmLVlCDla2PP4CzhrXCutMLcCue-T6bag=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#About .about-description {
+  padding-left: 2rem;
+}
+
+#About .btn-danger a:hover {
+  color: rgb(60, 143, 60);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* End of About Section  */
+
+/* Service Section   */
+
+#Services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#Services h2 {
+  color: #fff;
+}
+
+#Services .service-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  justify-content: space-around;
+}
+#Services .service {
+  background-color: #fff;
+  max-width: 300px;
+  box-shadow: 0 0 15px 5px;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s ease;
+  text-align: center;
+}
+#Services .service:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.5s ease;
+  background-color: #555;
+  color: #fff;
+}
+
+/* End of Service Section   */
+
+/* Contact Section */
+
+#Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Contact .contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#Contact .contact {
+  max-width: 300px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+#Contact i {
+  margin-bottom: 1rem;
+}
+#Contact i:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+#Contact a:hover {
+  color: tan;
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(1.01);
+}
+/* End of Contact Section */
+
+/* Footer  */
+
+#Footer {
+  height: 100px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End of  Footer  */
+
+@media (max-width: 900px) {
+  #Header h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+
+  #Nav {
+    font-size: 1.5rem;
+  }
+
+  #About .about-container {
+    flex-direction: column;
+  }
+  #About .about-img {
+    min-height: 450px;
+  }
+
+  #About .about-description {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  #Header h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  #Nav {
+    height: 15vh;
+    flex-direction: column;
+  }
+  #Nav ul {
+    justify-content: space-between;
+    align-items: center;
+  }
+  #About .about-img {
+    min-width: 350px;
+  }
+}
+
+a{
+  text-transform: none;
+  color: black;
+}
