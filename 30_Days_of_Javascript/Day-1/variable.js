@@ -23,3 +23,10 @@ let age = 23;
 \\Single line personal variables
 let firstName = 'Ebenezer', lastName = 'Ekunke', maritalStatus = 'Single', country = 'Nigeria', age = 23;
 
+let myAge = 24;
+let yourAge = 21;
+
+console.log('I am', myAge, 'years old');
+console.log('You are', yourAge, 'years old');
+
+
