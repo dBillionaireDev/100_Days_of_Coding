@@ -13,14 +13,14 @@ let height = "5'9";
 let weight = '65kg';
 let color = 'dark';
 
-\\Multiple lines personal variables
+//Multiple lines personal variables
 let firstName = 'Ebenezer';
 let lastName = 'Ekunke';
 let maritalStatus = 'Single';
 let country = 'Nigeria';
 let age = 23;
 
-\\Single line personal variables
+//Single line personal variables
 let firstName = 'Ebenezer', lastName = 'Ekunke', maritalStatus = 'Single', country = 'Nigeria', age = 23;
 
 let myAge = 24;
