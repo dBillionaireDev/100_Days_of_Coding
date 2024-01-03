@@ -18,10 +18,10 @@ let firstName = 'Ebenezer';
 let lastName = 'Ekunke';
 let maritalStatus = 'Single';
 let country = 'Nigeria';
-let age = 23;
+age = 23;
 
 //Single line personal variables
-let firstName = 'Ebenezer', lastName = 'Ekunke', maritalStatus = 'Single', country = 'Nigeria', age = 23;
+let preName = 'Ebenezer', surName = 'Ekunke', relationshipStatus = 'Single', countryResident = 'Nigeria', currentAge = 23;
 
 let myAge = 24;
 let yourAge = 21;
