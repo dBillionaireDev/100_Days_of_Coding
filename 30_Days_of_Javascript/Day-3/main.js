@@ -24,5 +24,24 @@ console.log(typeof '10' === typeof 10);
 //Task 3: Check if parseInt('9.8') is equal to 10
 console.log(parseInt('9.8') === 10);
 
+/*Task 4: Boolean value is either true or false.
 
-alert('Task three is done');
+Write three JavaScript statement which provide truthy value.
+Write three JavaScript statement which provide falsy value.
+*/
+
+let count = 5;
+console.log(++count);
+
+let a = 3;
+let b = 4;
+
+console.log(10 < 12);
+console.log(count === 6);
+console.log(a ** 4 === 81);
+
+console.log(20 > 3);
+console.log(count === 5);
+console.log(a * b === 81);
+
+alert('Task four is done');
