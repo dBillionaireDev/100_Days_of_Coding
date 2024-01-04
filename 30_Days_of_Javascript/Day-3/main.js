@@ -40,7 +40,7 @@ console.log(10 < 12);
 console.log(count === 6);
 console.log(a ** 4 === 81);
 
-console.log(20 > 3);
+console.log(20 > 23);
 console.log(count === 5);
 console.log(a * b === 81);
 
