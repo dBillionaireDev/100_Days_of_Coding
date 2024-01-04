@@ -17,4 +17,12 @@ console.log(typeof city);
 console.log(typeof age);
 console.log(typeof isMarried);
 console.log(typeof year);
-alert('Task one is done');
+
+//Task 2: Check if type of '10' is equal to 10
+console.log(typeof '10' === typeof 10);
+
+//Task 3: Check if parseInt('9.8') is equal to 10
+console.log(parseInt('9.8') === 10);
+
+
+alert('Task three is done');
