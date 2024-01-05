@@ -198,4 +198,39 @@ let x = prompt('Input', 'Enter your value of x');
 let y = x * 2 + 6 * x + 9;
 alert(`The value of Y is ${y}`);
 
-alert('Level 2, task eight is done');
+
+//Task 9: Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+
+let rate = prompt('How much do you want to be paid per hour?', 'Enter rate');
+let duration = prompt('How many hours do you want to work per day?', 'Enter hours');
+const dailyEarning = rate * duration;
+const weeklyEarning = dailyEarning * 7;
+const monthlyEarning = weeklyEarning * 4;
+alert(`Your daily earning is ${dailyEarning}`);
+alert(`Your weekly earning is ${weeklyEarning}`);
+alert(`Your monthly earning is ${monthlyEarning}`);
+
+//Task 10: If the length of your name is greater than 7 say, your name is long else say your name is short.
+
+if (firstName.length > 7){
+ alert('Your name is too long');
+} else{
+alert('Your name is short');
+}
+
+//Task 11: Compare your first name length and your family name length and you should get this output.
+
+if (firstName.length > lastName.length){
+ alert(`Your first name, ${firstName} is longer than your family name, ${lastName}`);
+} else{
+alert(`Your first name, ${firstName} is shorter than your family name, ${lastName}`);
+}
+
+//Task 12: Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+
+let myAge = 25;
+let yourAge = 22;
+const ageDifference = myAge - yourAge;
+console.log(`I am ${ageDifference} years older than you`);
+
+alert('Level 2, task nine is done');
