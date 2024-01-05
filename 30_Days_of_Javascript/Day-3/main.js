@@ -249,7 +249,7 @@ alert(`You are ${currentAge}. You will be allowed to drive after ${legalAge} yea
 //Task 14: Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
 let seconds = 31536000;
-let clientYOB = prompt('Enter your age', 'Current Age');
+clientYOB = prompt('Enter your age', 'Current Age');
 let secondsOfExistence = clientYOB * seconds;
 
 alert(`You have lived for ${secondsOfExistence} seconds long on earth.`);
@@ -260,12 +260,12 @@ DD-MM-YYYY HH:mm
 MM/DD/YYYY HH:mm 
 */
 
-const time = new Date();
-let newYear = time.getFullYear();
-let newMonth = time.getMonth() + 1;
-let newDay = time.getDate();
-let newHours = time.getHours();
-let newMinutes = time.getMinutes();
+const currentTime = new Date();
+let newYear = currentTime.getFullYear();
+let newMonth = currentTime.getMonth() + 1;
+let newDay = currentTime.getDate();
+let newHours = currentTime.getHours();
+let newMinutes = currentTime.getMinutes();
 
 alert(`Time format in YYYY-MM-DD HH:mm is ${newYear}-0${newMonth}-0${newDay} ${newHours}:${newMinutes}`);
 alert(`Time format in DD-MM-YYYY HH:mm is 0${newDay}-0${newMonth}-${newYear} ${newHours}:${newMinutes}`);
