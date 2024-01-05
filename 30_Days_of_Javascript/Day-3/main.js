@@ -167,4 +167,35 @@ const circumference = 2 * pi * radius;
 alert(`The area of your circle is ${diamter}`);
 alert(`The circumference of your rectangle is ${circumference}`);
 
-alert('Level 2, task four is done');
+//Task 5: Calculate the slope, x-intercept and y-intercept of y = 2x -2
+
+let xOne = prompt('Enter number here', 'Enter the value of X1');
+let xTwo = prompt('Enter number here', 'Enter the value of X2');
+let yOne = prompt('Enter number here', 'Enter the value Y1');
+let yTwo = prompt('Enter number here', 'Enter the value Y2');
+const slopeOne = (yTwo - yOne) / (xTwo - xOne);
+const xIntercept = 0 + 2 / 2;
+const yIntercept = 2 * 0 -2;
+alert(`The slope of your graph is ${slopeOne}`);
+alert(`The x-intercept of your graph is ${xIntercept}`);
+alert(`The y-intercept of your graph is ${yIntercept}`);
+
+//Task 6: Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
+
+yTwo = 2;
+yOne = 2;
+xTwo = 6;
+xOne = 10
+const slopeTwo = (yTwo - yOne) / (xTwo - xOne);
+alert(`Your slope is ${slopeTwo}`);
+
+//Task 6: Compare the slope of above two questions.
+alert(slopeOne === slopeTwo);
+
+//Task 8: Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+
+let x = prompt('Input', 'Enter your value of x');
+let y = x * 2 + 6 * x + 9;
+alert(`The value of Y is ${y}`);
+
+alert('Level 2, task eight is done');
