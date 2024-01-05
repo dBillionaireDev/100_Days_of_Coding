@@ -149,6 +149,22 @@ let c = prompt('Enter number here', 'Enter side c');
 const perimeter = a + b + c;
 alert(`The perimeter of your triangle is ${perimeter}`);
 
+//Task 3: Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 
+let length = prompt('Enter number here', 'Enter your rectangle length');
+let width = prompt('Enter number here', 'Enter your rectangle width');
+const distance = length * width;
+const total = length + width;
+alert(`The area of your rectangle is ${distance}`);
+alert(`The perimeter of your rectangle is ${total}`);
 
-alert('Task one is done');
+//Task 4: Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+
+let radius = prompt('Enter number here', 'Enter your circle radius');
+let pi= 3.14;
+const diamter = pi * radius * radius;
+const circumference = 2 * pi * radius;
+alert(`The area of your circle is ${diamter}`);
+alert(`The circumference of your rectangle is ${circumference}`);
+
+alert('Level 2, task four is done');
