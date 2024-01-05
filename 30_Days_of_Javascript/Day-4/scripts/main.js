@@ -10,7 +10,7 @@ alert('You are old enough to drive.');
 alert(`You are left with ${legalAge} years to drive.`);
 }
 
-//Task 1: Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+//Task 2: Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
 let myAge = 23;
 let yourAge = prompt('Enter your age','Your age in years please');
@@ -19,8 +19,30 @@ const yourAgeDifference = yourAge - myAge;
 
 if (myAge > yourAge){
 alert(`I am ${myAgeDifference} years older than you.`);
-} else alert(`You are ${yourAgeDifference} years older than me.`);
+} else {alert(`You are ${yourAgeDifference} years older than me.`);
 }
 
+/*Task 3: If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways
+
+using if else
+ternary operator.
+*/
+
+let a = 8;
+let b = 15;
+
+//Using if else...
+
+if (a > b){
+console.log('a is greater than b');
+} else {
+console.log('a is less than b');
+}
+
+//Using ternary operator.....
+
+a > b
+? alert('a is greater than b')
+: alert('a is less than b')
 
 
