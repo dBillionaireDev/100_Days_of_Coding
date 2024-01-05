@@ -131,4 +131,24 @@ console.log(time.getHours());
 console.log(time.getMinutes());
 console.log(time.getTime());
 
-alert('Task seven is done');
+//Exercises: Level 2
+
+//Task 1: Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+
+let base = prompt('Enter number here', 'Enter your triangle base');
+let height = prompt('Enter number here', 'Enter your triangle height');
+const constant = 0.5;
+const area = base * height * constant;
+alert(`The area of your triangle is ${area}`);
+
+//Task 2: Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+
+a = prompt('Enter number here', 'Enter side a');
+b = prompt('Enter number here', 'Enter side b');
+let c = prompt('Enter number here', 'Enter side c');
+const perimeter = a + b + c;
+alert(`The perimeter of your triangle is ${perimeter}`);
+
+
+
+alert('Task one is done');
