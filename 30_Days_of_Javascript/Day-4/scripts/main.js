@@ -132,3 +132,35 @@ switch (month) {
     console.log(`${month} is not a month.`)
 }
 
+//Task 3: Check if a day is weekend day or a working day. Your script will take day as an input.
+
+userInput = prompt('What day is it today?')
+let day = userInput.toLowerCase()
+
+switch (day) {
+ case 'monday':
+    console.log('Monday is a working day.')
+    break
+ case 'tuesday':
+    console.log('Tuesday is a working day.')
+    break
+ case 'wednesday':
+    console.log('Wednesday is a working day.')
+    break
+ case 'thursday':
+    console.log('Thursday is a working day.')
+    break
+ case 'friday':
+    console.log('Friday is a working day.')
+    break
+ case 'saturday':
+    console.log('Saturday is a weekend.')
+    break
+ case 'sunday':
+    console.log('Sunday is a weekend.')
+    break
+ default:
+    console.log(`${day} is not a day of the week.`)
+}
+
+
