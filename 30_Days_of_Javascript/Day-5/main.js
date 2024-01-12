@@ -50,3 +50,12 @@ if (itCompanies.includes('Facebook')){
 } else{
 	console.log('Facebook is not a company');
 }
+
+let short = itCompanies;
+console.log(short.sort());
+console.log(short.reverse());
+console.log(short.slice(3, 5));
+console.log(short.splice(5, 3, ));
+console.log(short.splice(4, 1, ));
+console.log(short.shift());
+console.log(short.pop());
