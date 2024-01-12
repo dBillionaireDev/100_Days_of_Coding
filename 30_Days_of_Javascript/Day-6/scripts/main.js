@@ -29,3 +29,15 @@ for (let i = 1; i <= 7; i++) {
   let hashString = '#'.repeat(i);
   console.log(hashString);
 }
+
+
+for(let i = 0; i <=10; i++){
+	console.log(`${i} x ${i} = ${i * i}`);
+}
+
+
+for(let i = 0; i <=10; i++){
+	console.log(`${i}   ${i ** 2}   ${i ** 3}`);
+}
+
+
