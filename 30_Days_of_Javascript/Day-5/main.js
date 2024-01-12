@@ -10,3 +10,7 @@ let lastNum = arr.length -1;
 
 console.log(firstNum, middleNum, lastNum);
 
+const mixedDataTypes = [2, 'Man', true,  , 5, 'I am good'];
+console.log(mixedDataTypes.length);
+
+
