@@ -41,3 +41,12 @@ console.log(itCompanies[3].toUpperCase);
 console.log(itCompanies[4].toUpperCase);
 console.log(itCompanies[5].toUpperCase);
 console.log(itCompanies[6].toUpperCase);
+
+let singleCompanies = itCompanies.join(', ');
+console.log(` ${singleCompanies} are big IT companies`);
+
+if (itCompanies.includes('Facebook')){
+	console.log('Facebook is a company');
+} else{
+	console.log('Facebook is not a company');
+}
