@@ -13,4 +13,31 @@ console.log(firstNum, middleNum, lastNum);
 const mixedDataTypes = [2, 'Man', true,  , 5, 'I am good'];
 console.log(mixedDataTypes.length);
 
+let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+console.log(itCompanies);
+console.log(itCompanies.length);
 
+let firstCompany = itCompanies[0];
+let midCompany = itCompanies[3];
+let lastCompany = itCompanies.length -1;
+let lastIndex = itCompanies[lastCompany];
+
+console.log(`The first company is ${firstCompany}`);
+console.log(`The middle company is ${midCompany}`);
+console.log(`The last company is ${lastIndex}`);
+
+console.log(itCompanies[0]);
+console.log(itCompanies[1]);
+console.log(itCompanies[2]);
+console.log(itCompanies[3]);
+console.log(itCompanies[4]);
+console.log(itCompanies[5]);
+console.log(itCompanies[6]);
+
+console.log(itCompanies[0].toUpperCase);
+console.log(itCompanies[1].toUpperCase);
+console.log(itCompanies[2].toUpperCase);
+console.log(itCompanies[3].toUpperCase);
+console.log(itCompanies[4].toUpperCase);
+console.log(itCompanies[5].toUpperCase);
+console.log(itCompanies[6].toUpperCase);
