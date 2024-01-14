@@ -107,3 +107,24 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
 const total = [`${bills + tips}`];
 console.log(bills, tips, total);
 
+//Declare a function addNumbers and it takes two two parameters and it returns sum.
+
+const addNumbers = function(numOne, numTwo){
+	let numOne = 4;
+	let numTwo = 8;
+
+const sum = numOne + numTwo;
+return sum;
+
+}
+
+console.log(addNumbers);// 12
+
+//An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle
+
+const areaOfRectangle = function(length, breadth){
+	const area = length * breadth;
+	return area;
+}
+
+console.log(areaOfRectangle(10, 6));
