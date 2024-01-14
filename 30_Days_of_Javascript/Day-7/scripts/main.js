@@ -155,3 +155,12 @@ const convertCelsiusToFahrenheit = function(celsius){
 }
 
 console.log(convertCelsiusToFahrenheit (0));
+
+//Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
+
+const solveLinEquation = function(a, b, c, x, y){
+	const equation = (a * x) + (b * y) + c;
+	return equation;
+}
+
+console.log(solveLinEquation(2, 4, 1, 3, 7));
