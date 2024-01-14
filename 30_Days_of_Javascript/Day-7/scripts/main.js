@@ -146,3 +146,12 @@ const volumeOfRectPrism = function(length, breadth, height){
 }
 
 console.log(volumeOfRectPrism(10, 6, 8));
+
+//Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
+
+const convertCelsiusToFahrenheit = function(celsius){
+	const fahrenheit = (celsius * 9 / 5) + 32;
+	return fahrenheit;
+}
+
+console.log(convertCelsiusToFahrenheit (0));
