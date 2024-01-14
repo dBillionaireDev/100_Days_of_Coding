@@ -128,3 +128,12 @@ const areaOfRectangle = function(length, breadth){
 }
 
 console.log(areaOfRectangle(10, 6));
+
+//A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which calculates perimeterOfRectangle.
+
+const perimeterOfRectangle = function(length, breadth){
+	const perimeter = (length + breadth) * 2;
+	return perimeter;
+}
+
+console.log(perimeterOfRectangle(10, 6));
