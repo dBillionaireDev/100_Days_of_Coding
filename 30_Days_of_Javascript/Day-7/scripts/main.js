@@ -137,3 +137,12 @@ const perimeterOfRectangle = function(length, breadth){
 }
 
 console.log(perimeterOfRectangle(10, 6));
+
+//A volume of a rectangular prism is calculated as follows: volume = length x width x height. Write a function which calculates volumeOfRectPrism
+
+const volumeOfRectPrism = function(length, breadth, height){
+	const volume = length * breadth * height;
+	return volume;
+}
+
+console.log(volumeOfRectPrism(10, 6, 8));
