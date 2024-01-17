@@ -105,3 +105,5 @@ return `My dog is ${dog.name}, he has ${dog.legs} legs and is ${dog.color} in co
 }
 
 console.log(getDogInfo());
+
+//END OF DAY 8 CHALLENGE
