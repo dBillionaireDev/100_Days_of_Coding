@@ -77,6 +77,7 @@ console.log(dog);
 
 dog.name = 'Jasper'
 dog.legs = 4
+dog.age = 3
 dog.color = 'Brown'
 dog.bark = true
 
@@ -86,3 +87,11 @@ return `woof woof`
 } else {
 return `does not bark`
 }
+
+//CHALLENGE 4
+
+console.log(dog.name);
+console.log(dog.legs);
+console.log(dog.age);
+console.log(dog.color);
+console.log(dog.bark);
