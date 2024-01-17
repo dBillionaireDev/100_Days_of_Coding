@@ -95,3 +95,13 @@ console.log(dog.legs);
 console.log(dog.age);
 console.log(dog.color);
 console.log(dog.bark);
+
+//CHALLENGE 5
+
+dog.breed ='Chihuahua'
+
+getDogInfo = function (){
+return `My dog is ${dog.name}, he has ${dog.legs} legs and is ${dog.color} in color. He is ${dog.age} and YES!! it is ${dog.bark} that my dog can bark`;
+}
+
+console.log(getDogInfo());
