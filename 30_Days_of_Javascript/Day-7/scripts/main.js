@@ -164,3 +164,17 @@ const solveLinEquation = function(a, b, c, x, y){
 }
 
 console.log(solveLinEquation(2, 4, 1, 3, 7));
+
+//Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
+const areaOfCircle = function (radius) {
+    /*let area = 0; 
+	for (let i = 0; i <= arr.length; i++) {
+	
+	} */
+	area = Math.PI * (radius ** 2);
+	return area;
+	} 
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
+
+console.log(areaOfCircle(360)); //407150.40790523717
