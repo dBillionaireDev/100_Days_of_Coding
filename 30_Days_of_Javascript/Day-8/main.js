@@ -68,3 +68,21 @@ Set new properties the dog object: breed, getDogInfo
 
 //CHALLENGE 1
 const dog = {};
+
+//CHALLENGE 2
+
+console.log(dog);
+
+////CHALLENGE 3
+
+dog.name = 'Jasper'
+dog.legs = 4
+dog.color = 'Brown'
+dog.bark = true
+
+bark: function (){
+ if (bark = true){
+return `woof woof`
+} else {
+return `does not bark`
+}
