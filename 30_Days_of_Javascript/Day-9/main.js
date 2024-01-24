@@ -16,8 +16,12 @@ const products = [
 */
 
 //Use forEach to console.log each country in the countries array.
-let sum = 0
+
 countries.forEach((element) => {
 	console.log(element)
 })
 
+//Use forEach to console.log each name in the names array.
+names.forEach((element) => {
+	console.log(element)
+})
