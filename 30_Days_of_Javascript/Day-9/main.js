@@ -25,3 +25,7 @@ countries.forEach((element) => {
 names.forEach((element) => {
 	console.log(element)
 })
+
+//Use forEach to console.log each number in the numbers array.
+numbers.forEach((element) => {
+	console.log(element)
