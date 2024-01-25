@@ -39,4 +39,10 @@ const countriesToUpperCase = countries.map((element) => {
 const numbersSquare = numbers.map((number) => number ** 2);
 	console.log(numbersSquare);
 
-//
+//Use map to create an array of countries length from countries array.
+const countriesLength = countries.map((country) => country.length);
+	console.log(countriesLength);
+
+//Use map to change to each name to uppercase in the names array
+const namesToUpperCase = names.map((name) => name.toUpperCase());
+	console.log(namesToUpperCase);
