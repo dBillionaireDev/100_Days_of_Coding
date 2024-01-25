@@ -16,7 +16,6 @@ const products = [
 */
 
 //Use forEach to console.log each country in the countries array.
-
 countries.forEach((element) => {
 	console.log(element)
 })
