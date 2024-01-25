@@ -36,5 +36,6 @@ countriesToUpperCase = countries.map((element) => {
 })
 
 //Use map to create a new array by changing each number to square in the numbers array
-
+numbersSquare = numbers.map((number) => number ** 2);
+	console.log(numbersSquare);
 
