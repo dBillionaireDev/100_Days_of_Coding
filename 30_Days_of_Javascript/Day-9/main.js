@@ -32,6 +32,9 @@ numbers.forEach((element) => {
 //Use map to create a new array by changing each country to uppercase in the countries array.
 countriesToUpperCase = countries.map((element) => {
 	return element.toUpperCase();
+	console.log(countriesToUpperCase);
 })
+
+//Use map to create a new array by changing each number to square in the numbers array
 
 
