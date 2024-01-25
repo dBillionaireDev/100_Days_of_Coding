@@ -55,3 +55,7 @@ const countriesContainingLand = countries.filter((country) => country.includes('
 const countriesWithSix = countries.filter((country) => country.length === 6);
 	console.log(countriesWithSix);
 
+//Use filter to filter out country start with 'E';
+const countriesStarts = countries.filter((country) => country.startsWith('E'));
+	console.log(countriesStarts);
+
