@@ -28,3 +28,10 @@ names.forEach((element) => {
 //Use forEach to console.log each number in the numbers array.
 numbers.forEach((element) => {
 	console.log(element)
+
+//Use map to create a new array by changing each country to uppercase in the countries array.
+countriesToUpperCase = countries.map((element) => {
+	return element.toUpperCase();
+})
+
+
