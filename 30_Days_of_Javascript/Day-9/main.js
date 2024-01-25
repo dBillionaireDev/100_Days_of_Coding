@@ -46,3 +46,12 @@ const countriesLength = countries.map((country) => country.length);
 //Use map to change to each name to uppercase in the names array
 const namesToUpperCase = names.map((name) => name.toUpperCase());
 	console.log(namesToUpperCase);
+
+//Use filter to filter out countries containing land.
+const countriesContainingLand = countries.filter((country) => country.includes('land'));
+	console.log(countriesContainingLand);
+
+//Use filter to filter out countries having six character.
+const countriesWithSix = countries.filter((country) => country.length === 6);
+	console.log(countriesWithSix);
+
