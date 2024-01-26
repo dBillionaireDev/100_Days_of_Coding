@@ -32,3 +32,11 @@ console.log(emptySet);
 emptySet.clear();
 
 console.log(emptySet);
+
+//Task 5: Create a set of 5 string elements from array
+const nameArray = ['Nezer', 'Zeile', 'Dozzy', 'Emylex', 'DeWind'];
+const nameSet = new Set(nameArray);
+
+console.log(nameSet);
+
+
