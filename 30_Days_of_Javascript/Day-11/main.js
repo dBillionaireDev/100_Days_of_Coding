@@ -72,4 +72,7 @@ console.log(e, pi, gravity, humanBodyTemp, waterBoilingTemp)
 const [fin, est, sw, den, nor] = countries;
 console.log(fin, est, sw, den, nor)
 
+//Task 3: Destructure the rectangle object by its properties or keys.
 
+const {width, height, area, perimeter} = rectangle;
+console.log(width, height, area, perimeter);
