@@ -66,3 +66,10 @@ Destructure the rectangle object by its properties or keys.
 
 const [e, pi, gravity, humanBodyTemp, waterBoilingTemp] = constants;
 console.log(e, pi, gravity, humanBodyTemp, waterBoilingTemp)
+
+//Task 2: Destructure and assign the elements of countries array to fin, est, sw, den, nor.
+
+const [fin, est, sw, den, nor] = countries;
+console.log(fin, est, sw, den, nor)
+
+
