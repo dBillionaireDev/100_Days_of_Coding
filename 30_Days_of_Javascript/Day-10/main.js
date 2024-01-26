@@ -34,9 +34,20 @@ emptySet.clear();
 console.log(emptySet);
 
 //Task 5: Create a set of 5 string elements from array
+
 const nameArray = ['Nezer', 'Zeile', 'Dozzy', 'Emylex', 'DeWind'];
 const nameSet = new Set(nameArray);
 
 console.log(nameSet);
 
+//Task 6: Create a map of countries and number of characters of a country
 
+const countries = [
+['Nigeria', 7],
+['Algeria', 7],
+['Australia', 9],
+]
+
+const countriesMap = new Map();
+
+console.log(countriesMap);
