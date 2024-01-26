@@ -10,4 +10,7 @@ Create a set of 5 string elements from array
 Create a map of countries and number of characters of a country
 */
 
+//Task 1: create an empty set
 
+const emptySet = new Set();
+console.log(emptySet);
