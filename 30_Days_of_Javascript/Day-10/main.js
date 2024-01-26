@@ -27,3 +27,8 @@ console.log(emptySet);
 
 emptySet.delete(6);
 console.log(emptySet);
+
+//Task 4: Clear a set
+emptySet.clear();
+
+console.log(emptySet);
