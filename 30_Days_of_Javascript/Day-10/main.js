@@ -84,4 +84,12 @@ Let C = new Set(c);
 
 console.log(C);
 
+//Task 9: Find a with b
 
+let A = new Set(a);
+let B = new Set(b);
+
+const c = a.filter((num) => !B.has(num));
+Let C = new Set(c);
+
+console.log(C);
