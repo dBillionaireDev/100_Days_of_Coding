@@ -22,3 +22,8 @@ for (let i = 0; i <= 10; i++) {
 	emptySet.add(i);
 }
 console.log(emptySet);
+
+//Task 3: Remove an element from a set
+
+emptySet.delete(6);
+console.log(emptySet);
