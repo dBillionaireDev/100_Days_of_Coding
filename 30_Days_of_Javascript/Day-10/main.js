@@ -72,3 +72,16 @@ let B = new Set(b);
 Let C = new Set(c);
 
 console.log(C);
+
+
+//Task 8: Find a intersection b
+
+let A = new Set(a);
+let B = new Set(b);
+
+const c = a.filter((num) => B.has(num));
+Let C = new Set(c);
+
+console.log(C);
+
+
