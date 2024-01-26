@@ -14,3 +14,11 @@ Create a map of countries and number of characters of a country
 
 const emptySet = new Set();
 console.log(emptySet);
+
+//Task 2: Create a set containing 0 to 10 using loop
+
+const emptySet = new Set();
+for (let i = 0; i <= 10; i++) {
+	emptySet.add(i);
+}
+console.log(emptySet);
