@@ -2028,3 +2028,13 @@ console.table(countries);
 //Task 3: Use console.group() to group logs
 
 console.group(countries);
+
+//Task 4: Write a warning message using console.warn()
+
+console.warn('This is a warning');
+
+//Task 5: Write an error message using console.error()
+
+console.error('This is an error');
+
+
