@@ -2021,6 +2021,10 @@ const countries = [
   }
 ]
 
-//Task 1: Display the countries array as a table
+//Task 1-2: Display the countries array as a table
 
 console.table(countries);
+
+//Task 3: Use console.group() to group logs
+
+console.group(countries);
