@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            scroll-behavior: smooth;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(63, 95, 95);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .calculator{
+            background-color: rgb(28, 28, 46);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+       .calculator form input{
+        border: 0;
+        outline: 0;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        box-shadow: -8px -8px -15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+        background: rgb(29, 56, 73); 
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        margin: 10px;
+       }
+
+       form .display{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 0;
+       }
+
+       form .display input{
+        background-color: rgb(207, 205, 205);
+        color: black;
+        text-align: right;
+        flex: 1;
+        font-size: 40px;
+        box-shadow: none;
+        border-radius: 10px;
+       }
+       
+       #equal{
+        width: 145px;
+        border-radius: 10px;
+       }
+
+       .calculator form #click:hover, #equal:hover{
+            background-color: rgb(20,47,68);
+            color: white;
+        }
+
+        .calculator form #click:active, #equal:active{
+            background-color: rgb(32,91,122);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div>
+                    <input type="button" value="AC" id="click" onclick="display.value = '' ">
+                    <input type="button" value="⌫" id="click" onclick="display.value = display.value.toString().slice(0, -1)">
+                    <input type="button" value="." id="click" onclick="display.value += '.' ">
+                    <input type="button" value="÷" id="click" onclick="display.value += '/' ">
+                </div>
+                <div>
+                    <input type="button" value="7" id="click" onclick="display.value += '7' ">
+                    <input type="button" value="8" id="click" onclick="display.value += '8' ">
+                    <input type="button" value="9" id="click" onclick="display.value += '9' ">
+                    <input type="button" value="×" id="click" onclick="display.value += '*' ">
+                </div>
+                <div>
+                    <input type="button" value="4" id="click" onclick="display.value += '4' ">
+                    <input type="button" value="5" id="click" onclick="display.value += '5' ">
+                    <input type="button" value="6" id="click" onclick="display.value += '6' ">
+                    <input type="button" value="-" id="click" onclick="display.value += '-' ">
+                </div>
+                <div>
+                    <input type="button" value="1" id="click" onclick="display.value += '1' ">
+                    <input type="button" value="2" id="click" onclick="display.value += '2' ">
+                    <input type="button" value="3" id="click" onclick="display.value += '3' ">
+                    <input type="button" value="+" id="click" onclick="display.value += '+' ">
+                </div>
+                <div>
+                    <input type="button" value="00" id="click" onclick="display.value += '00' ">
+                    <input type="button" value="0" id="click" onclick="display.value += '0' ">
+                    <input type="button" value="=" id="equal" onclick="display.value = eval(display.value) ">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
